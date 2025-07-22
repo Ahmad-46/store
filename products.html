@@ -21,49 +21,180 @@
     <section class="section">
       <h2 style="text-align: center; margin-bottom: 40px;">Our Products</h2>
 
-      <div class="product-category">
-        <h3>🌾 Seeds</h3>
-        <ul class="product-list">
-          <li>
-            Hybrid Wheat Seed
-            <a href="https://wa.me/923334866151?text=I%20want%20to%20order%20Hybrid%20Wheat%20Seed" class="btn small">Order Now</a>
-          </li>
-          <li>
-            Basmati Rice Seed
-            <a href="https://wa.me/923334866151?text=I%20want%20to%20order%20Basmati%20Rice%20Seed" class="btn small">Order Now</a>
-          </li>
-          <li>
-            Sunflower Hybrid Seed
-            <a href="https://wa.me/923334866151?text=I%20want%20to%20order%20Sunflower%20Hybrid%20Seed" class="btn small">Order Now</a>
-          </li>
-          <li>
-            Cotton Seed – BT Variety
-            <a href="https://wa.me/923334866151?text=I%20want%20to%20order%20Cotton%20Seed%20BT%20Variety" class="btn small">Order Now</a>
-          </li>
-        </ul>
-      </div>
+     <!-- 🌽 Corn Seed -->
+<div class="product-card">
+  <h3>Corn Seed</h3>
+  <p>High-quality hybrid corn seeds for better yield and growth.</p>
+  <label for="corn-qty">Quantity (kg):</label>
+  <input type="number" id="corn-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Corn Seed', 'corn-qty')">Order Now</a>
+</div>
 
-      <div class="product-category">
-        <h3>🧪 Pesticides</h3>
-        <ul class="product-list">
-          <li>
-            Imidacloprid 20% SL
-            <a href="https://wa.me/923334866151?text=I%20want%20to%20order%20Imidacloprid%2020%%20SL" class="btn small">Order Now</a>
-          </li>
-          <li>
-            Glyphosate 41% SL
-            <a href="https://wa.me/923334866151?text=I%20want%20to%20order%20Glyphosate%2041%%20SL" class="btn small">Order Now</a>
-          </li>
-          <li>
-            Chlorpyrifos 50% EC
-            <a href="https://wa.me/923334866151?text=I%20want%20to%20order%20Chlorpyrifos%2050%%20EC" class="btn small">Order Now</a>
-          </li>
-          <li>
-            Carbendazim 50% WP
-            <a href="https://wa.me/923334866151?text=I%20want%20to%20order%20Carbendazim%2050%%20WP" class="btn small">Order Now</a>
-          </li>
-        </ul>
-      </div>
+<!-- 🌾 Wheat Seed -->
+<div class="product-card">
+  <h3>Wheat Seed</h3>
+  <p>Premium wheat seeds for strong root and high output.</p>
+  <label for="wheat-qty">Quantity (kg):</label>
+  <input type="number" id="wheat-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Wheat Seed', 'wheat-qty')">Order Now</a>
+</div>
+
+<!-- 🌻 Sunflower Seed -->
+<div class="product-card">
+  <h3>Sunflower Seed</h3>
+  <p>High oil-content sunflower seeds suitable for all climates.</p>
+  <label for="sunflower-qty">Quantity (kg):</label>
+  <input type="number" id="sunflower-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Sunflower Seed', 'sunflower-qty')">Order Now</a>
+</div>
+
+<!-- 🌱 Cotton Seed -->
+<div class="product-card">
+  <h3>Cotton Seed</h3>
+  <p>Disease-resistant cotton seeds for better fiber production.</p>
+  <label for="cotton-qty">Quantity (kg):</label>
+  <input type="number" id="cotton-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Cotton Seed', 'cotton-qty')">Order Now</a>
+</div>
+
+<!-- 🌶️ Chilli Seed -->
+<div class="product-card">
+  <h3>Chilli Seed</h3>
+  <p>Hot and hybrid chilli seeds with high germination rate.</p>
+  <label for="chilli-qty">Quantity (kg):</label>
+  <input type="number" id="chilli-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Chilli Seed', 'chilli-qty')">Order Now</a>
+</div>
+
+<!-- 🧅 Onion Seed -->
+<div class="product-card">
+  <h3>Onion Seed</h3>
+  <p>Top-quality onion seeds for consistent bulb formation.</p>
+  <label for="onion-qty">Quantity (kg):</label>
+  <input type="number" id="onion-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Onion Seed', 'onion-qty')">Order Now</a>
+</div>
+
+<!-- 🍅 Tomato Seed -->
+<div class="product-card">
+  <h3>Tomato Seed</h3>
+  <p>High-yield hybrid tomato seeds for all seasons.</p>
+  <label for="tomato-qty">Quantity (kg):</label>
+  <input type="number" id="tomato-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Tomato Seed', 'tomato-qty')">Order Now</a>
+</div>
+
+<!-- 🍆 Brinjal Seed -->
+<div class="product-card">
+  <h3>Brinjal Seed</h3>
+  <p>Firm and uniform brinjal (baingan) seed variety.</p>
+  <label for="brinjal-qty">Quantity (kg):</label>
+  <input type="number" id="brinjal-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Brinjal Seed', 'brinjal-qty')">Order Now</a>
+</div>
+
+<!-- 🥒 Cucumber Seed -->
+<div class="product-card">
+  <h3>Cucumber Seed</h3>
+  <p>Fast-growing hybrid cucumber seed for off-season farming.</p>
+  <label for="cucumber-qty">Quantity (kg):</label>
+  <input type="number" id="cucumber-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Cucumber Seed', 'cucumber-qty')">Order Now</a>
+</div>
+
+<!-- 🥔 Potato Seed -->
+<div class="product-card">
+  <h3>Potato Seed</h3>
+  <p>Certified potato seed tubers for large-scale cultivation.</p>
+  <label for="potato-qty">Quantity (kg):</label>
+  <input type="number" id="potato-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Potato Seed', 'potato-qty')">Order Now</a>
+</div>
+<!-- 🧪 Urea Fertilizer -->
+<div class="product-card">
+  <h3>Urea Fertilizer</h3>
+  <p>High-nitrogen fertilizer for fast crop growth and green leaves.</p>
+  <label for="urea-qty">Quantity (kg):</label>
+  <input type="number" id="urea-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Urea Fertilizer', 'urea-qty')">Order Now</a>
+</div>
+
+<!-- 🧪 DAP Fertilizer -->
+<div class="product-card">
+  <h3>DAP Fertilizer</h3>
+  <p>Di-Ammonium Phosphate for strong root development and flowering.</p>
+  <label for="dap-qty">Quantity (kg):</label>
+  <input type="number" id="dap-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('DAP Fertilizer', 'dap-qty')">Order Now</a>
+</div>
+
+<!-- 🧪 Potash Fertilizer -->
+<div class="product-card">
+  <h3>Potash Fertilizer</h3>
+  <p>Enhances crop strength, improves quality, and increases resistance.</p>
+  <label for="potash-qty">Quantity (kg):</label>
+  <input type="number" id="potash-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Potash Fertilizer', 'potash-qty')">Order Now</a>
+</div>
+
+<!-- 🐛 Pesticide - Lambda Cyhalothrin -->
+<div class="product-card">
+  <h3>Lambda Cyhalothrin</h3>
+  <p>Broad-spectrum pesticide for insect control in vegetables and cotton.</p>
+  <label for="lambda-qty">Quantity (liters):</label>
+  <input type="number" id="lambda-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Lambda Cyhalothrin Pesticide', 'lambda-qty')">Order Now</a>
+</div>
+
+<!-- 🐛 Pesticide - Imidacloprid -->
+<div class="product-card">
+  <h3>Imidacloprid</h3>
+  <p>Effective for sucking pests like aphids and jassids in all crops.</p>
+  <label for="imidacloprid-qty">Quantity (liters):</label>
+  <input type="number" id="imidacloprid-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Imidacloprid Pesticide', 'imidacloprid-qty')">Order Now</a>
+</div>
+
+<!-- 🐛 Pesticide - Emamectin Benzoate -->
+<div class="product-card">
+  <h3>Emamectin Benzoate</h3>
+  <p>For effective control of caterpillars and borers in vegetables and fruits.</p>
+  <label for="emamectin-qty">Quantity (grams):</label>
+  <input type="number" id="emamectin-qty" min="1" value="1">
+  <br><br>
+  <a href="#" class="btn" onclick="orderSeed('Emamectin Benzoate Pesticide', 'emamectin-qty')">Order Now</a>
+</div>
+
+
+</div>
+
+<script>
+  function orderSeed(productName, inputId) {
+    const qty = document.getElementById(inputId).value;
+    const phone = "+923334866151";
+    const message = `Hello, I want to order ${qty} kg of ${productName} from your store.`;
+    const url = `https://wa.me/${phone.replace('+', '')}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
+  }
+</script>
+
+
+
     </section>
 
     <footer>
